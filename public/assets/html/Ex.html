@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Trang sức DOJI</title>
+	<link rel="stylesheet" href="assets/fontawesome/css/all.css">
+	<link rel="icon" href="https://trangsuc.doji.vn/favicon.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="~/assets/css/Ex.css"> 
+	
+</head>
+<body>
+		<div class="header">
+			<div class="hd_top">
+				<div class="hdt_left">
+					<a href="#"><img src="assets/images/ic-vts.png" alt=""> Về trang sức DOJI</a>
+					<a href="#"><img src="assets/images/ic-ht.png" alt=""> Hệ thống phân phối</a>
+					<a href="#"><img src="assets/images/ic-callr.png" alt=""></i> 0333.460.125</a>
+
+				</div>
+				<div class="hdt_right">
+					<div class="login_index">
+						<a href="login.html"><img src="assets/images/ic-account.png" alt=""> Tài khoản</a>
+					</div>
+					<div class="show_giohg">
+						<a href="giohang.html"><img src="assets/images/ic-gh.png" alt=""> Giỏ hàng (
+						<label class="count_shopping_cart">0</label>
+						)
+						</a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="hd_logo">
+				<a class="logo" href="" title="Trang sức DOJI">
+					<img src="assets/images/logo-t.png" alt="Trang sức DOJI">
+				</a>
+				<div class="khungtk">
+					<input  type="tksp" id = "keywords" placeholder="Tìm kiếm sản phẩm" style = "line-height: 30px ; width: 300px" />
+					<button>
+						<span id="search"><i class="fas fa-search"></i></span>
+					</button>
+				</div>
+			</div>
+			<div class="hd_menu">
+				<ul>
+					<li><a href="#">Bộ sưu tập</a>
+						<ul>
+	                        <li><a href="#">BST Trang sức kim cương Rays Of Light</a></li>
+	                        <li><a href="#">BST Trang sức kim cương Brilliant Style</a></li>
+	                        <li><a href="#">BST Trang sức kim cương Blooming Rose</a></li> 
+	                        <li><a href="#">BST TS Kim cương Queen Of Hearts</a></li>
+	                    </ul>
+	                    <ul>
+	                    	<li><a href="#">BST Trang sức trẻ Lucky Star</a></li>  
+	                        <li><a href="#">BST Nhẫn cưới Loving Heart</a></li>
+	                        <li><a href="#">BST Nhẫn cưới Happy Journey</a></li>
+	                        <li><a href="#">BST Trang sức trẻ Lucky Star</a></li>  
+	                    </ul>
+	                </li>
+					<li><a href="#">Kim cương viên</a>
+						<ul>
+							<li><a href="#">Trang sức trẻ Lucky Star</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Trang sức kim cương</a>
+						<ul>
+							<li><a href="#">TS Kim cương Như đóa Trà My</a></li>
+	                        <li><a href="#">TS Kim cương Queen Of Hearts</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Trang sức đá màu</a></li>
+					<li><a href="#">Trang sức ngọc trai</a>
+						<ul>
+							<li><a href="#">Trang sức ngọc trai south sea pearl</a></li>
+	                        <li><a href="#">Trang sức ngọc trai akoya</a></li>
+	                        <li><a href="#">Trang sức ngọc trai freshwater</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Trang sức cưới</a>
+						<ul>
+							<li><a href="#">Nhẫn cưới Loving Heart</a></li>
+	                        <li><a href="#">Nhẫn cưới Happy Journey</a></li>
+	                        <li><a href="#">Nhẫn đính hôn Infinity Love</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Trang sức trẻ</a>
+						<ul>
+							<li><a href="#">BST Trang sức kim cương The Leading Star</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Đồng hồ</a></li>
+					<li><a href="#">Trang sức vàng 24K</a></li>
+					<li><a href="#">Quà tặng</a></li>
+					<li><a href="#"style="color: red !important;"><img src="assets/images/ic-sale.png" alt=""> Sale </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="slide1">
+			<div class="slideshow">
+				<img id="slide" src="assets/images/img1.jpg" style="width: 100%;position: relative;margin: auto;height: 500px;transition: 0.5s;">
+		        <i class="fas fa-chevron-right" onclick="Next()" style="position: absolute;right: 0px; bottom: 100px;color: #0000003d;"></i>
+		        <i class="fas fa-chevron-left" onclick="Back()" style="position: absolute;left: 0px;bottom: 100px;color: #0000003d;"></i>
+		     </div>
+		</div>
+		<div id="content">
+        <div class="ctnt_row">
+            <div id="search-re">
+            </div>
+            <div id="main">
+		<div class="spnb">
+			<h2>SẢN PHẨM NỔI BẬT</h2>
+			<div class="row">
+				  <div  id="0" class="spnoibat col-3 col-m-3 col-s-6">
+				  	<img class="product-img" src="assets/images/kc1.jpg" alt="">
+				  	<a href="Chitietspnoibat1.html" class="product-name">Nhẫn Kim cương <br /> DJR3095</a>
+					<label class="price">42.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+
+				  </div>
+
+				  <div id="1" class="spnoibat col-3 col-m-3 col-s-6">
+				  	<img class="product-img" src="assets/images/kc2.jpg" alt="">
+				  	<a href="#"class="product-name">Hoa tai Kim cương <br /> DJB1020</a>
+					<label class="price">44.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				  </div>
+
+				  <div class="spnoibat col-6 col-m-6 col-s-12">
+				  	<iframe width="587" height="330"  src="https://www.youtube.com/embed/JlIZSXTby-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				  </div>
+
+				  <div id="2"class="spnoibat col-3 col-m-3 col-s-6">
+				  	<img class="product-img" src="assets/images/kc3.jpg" alt="">
+				  	<a href="#"class="product-name">Hoa tai Kim cương <br /> DJB1021</a>
+					<label class="price">44.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				  </div>
+
+				  <div id="3"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/kc5.jpg" alt="">
+				  	<a href="#"class="product-name">Mặt dây Kim cương <br /> DJP1295</a>
+					<label class="price">47.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+					</div>
+
+				  <div id="4"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/kc4.jpg" alt="">
+				  	<a href="#"class="product-name">Nhẫn Kim cương <br /> DJR3095</a>
+					<label class="price">42.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				  </div>
+
+				  <div id="5"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/kc1.jpg" alt="">
+					<a href="#"class="product-name">Nhẫn Kim cương <br /> DJR3095</a>
+					<label class="price">42.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				  </div>
+			</div>
+		</div>
+
+		<div class="tskc">
+			<h2>TRANG SỨC KIM CƯƠNG</h2>
+			<div class="thanhngang">
+				<div id="thanh"></div>
+			</div>
+			<div class="anhqc">
+				<img src="assets/images/img3.jpg" alt="">
+			</div>
+			<div class="row">
+				<div id="6"class="spnoibat col-3 col-m-3 col-s-6">
+				  	<img class="product-img" src="assets/images/kc1.jpg" alt=""><br />
+				  	<a href="Chitietspnoibat1.html" class="product-name">Nhẫn Kim cương <br /> DJR3095</a>
+					<label class="price">42.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					<a href=""></a>
+				</div>
+				<div id="7" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/kc2.jpg" alt="">
+				  	<a href="#"class="product-name">Hoa tai Kim cương <br /> DJB1020</a>
+					<label class="price">44.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+				<div id="8"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/kc3.jpg" alt="">
+				  	<a href="#"class="product-name">Hoa tai Kim cương <br /> DJB1021</a>
+					<label class="price">44.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+				<div id="9" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/kc5.jpg" alt="">
+				  	<a href="#"class="product-name">Mặt dây Kim cương <br /> DJP1295</a>
+					<label class="price">47.000.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+			</div>
+		</div>
+		<div class="tsc">
+			<h2>TRANG SỨC CƯỚI</h2>
+			<div class="thanhngang">
+				<div id="thanh"></div>
+			</div>
+			<div class="row">
+				  <div id="10" class="spnoibat col-3 col-m-3 col-s-6">
+				  	<img class="product-img" src="assets/images/tsc1.png" alt=""><br />
+				  	<a href="Chitietspnoibat2.html" class="product-name">Nhẫn cưới Salsa <br /> NWR1481</a>
+					<label class="price">20.860.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+
+				  </div>
+
+				  <div id="11" class="spnoibat col-3 col-m-3 col-s-6">
+				  	<img class="product-img" src="assets/images/tsc2.jpg" alt=""><br />
+				  	<a href="#"class="product-name">Nhẫn cưới Mono <br /> NWR1489</a>
+					<label class="price">19.560.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				  </div>
+
+				  <div class="spnoibat col-6 col-m-6 col-s-12">
+				  	<img class="tsc-img" src="assets/images/tsc.jpg" alt=""><br />
+				  </div>
+
+				  <div id="12" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/tsc3.jpg" alt="">
+				  	<a href="#"class="product-name">Nhẫn cưới Mono <br /> NWR1488</a>
+					<label class="price">15.370.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				  </div>
+
+				  <div id="13"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/tsc4.jpg" alt="">
+				  	<a href="#" class="product-name">Nhẫn cưới Salsa <br /> NWR1416</a>
+					<label class="price">13.590.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+					</div>
+
+				  <div id="14"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/tsc5.jpg" alt="">
+				  	<a href="#"class="product-name">Nhẫn cưới Kim cương <br /> IWR190-2</a>
+					<label class="price">55.890.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				  </div>
+
+				  <div id="15"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/tsc6.png" alt="">
+					<a href="#"class="product-name">Nhẫn cưới Mono <br /> NWR1469</a>
+					<label class="price">16.070.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				  </div>
+			</div>
+		</div>
+		<div class="tsv_24K">
+			<h2>TRANG SỨC VÀNG 24K</h2>
+			<div class="thanhngang">
+				<div id="thanh"></div>
+			</div>
+			<div class="anhqc">
+				<img src="assets/images/tsvang.jpg" alt="">
+			</div>
+			<div class="row">
+				<div id="16" class="spnoibat col-3 col-m-3 col-s-6">
+				  	<img class="product-img" src="assets/images/vg1.jpg" alt=""><br />
+				  	<a href="#" class="product-name">Mặt dây <br /> FP_60281</a>
+					<label class="price">3.800.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+				<div id="17"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/vg2.jpg" alt="">
+				  	<a href="#"class="product-name">Hoa tai <br />FE_60281 </a>
+					<label class="price">3.320.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+				<div id="18" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/vg3.jpg" alt="">
+				  	<a href="#"class="product-name">Nhẫn <br /> FR_60281</a>
+					<label class="price">6.555.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+				<div id="19"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/vg4.jpg" alt="">
+				  	<a href="#"class="product-name">Mặt dây <br /> FP_60282</a>
+					<label class="price">3.515.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+			</div>
+		</div>
+		<div class="dongho">
+			<h2>ĐỒNG HỒ - DOJI WATCH</h2>
+			<div class="thanhngang">
+				<div id="thanh"></div>
+			</div>
+			<div class="row">
+			  <div class="spnoibat col-6 col-m-6 col-s-12">
+			  	<img class="tsc-img" src="assets/images/anhdh.png" alt=""><br />
+			  </div>
+			  <div  id="20" class="spnoibat col-3 col-m-3 col-s-6">
+			  	<img class="product-img" src="assets/images/dh1.jpg" alt=""><br />
+			  	<a href="Chitietspnoibat.html" class="product-name">Đồng hồ Emporio Armani <br /> AR1987</a>
+				<label class="price">9.520.000đ</label>
+				<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+
+			    </div>
+
+			    <div id="21" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/dh2.jpg" alt="">
+			  	<a href="#"class="product-name">Đồng hồ Emporio Armani <br /> AR1911</a>
+				<label class="price">6.620.000đ</label>
+				<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+				
+			  </div>
+
+			  
+
+			  <div id="22" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/dh3.jpg" alt="">
+			  	<a href="#"class="product-name">Đồng hồ Emporio Armani <br /> AR1909</a>
+				<label class="price">10.130.000đ</label>
+				<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+				
+			  </div>
+
+			  <div id="23" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/dh4.jpg" alt="">
+			  	<a href="#"class="product-name">Đồng hồ Emporio Armani <br /> AR1908</a>
+				<label class="price">8.780.000đ</label>
+				<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+				
+			  </div>
+
+			  <div id="24" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/dh5.jpg" alt="">
+			  	<a href="#"class="product-name">Đồng hồ Emporio Armani <br /> AR11113</a>
+				<label class="price">7.530.000đ</label>
+				<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+				
+			  </div>
+
+			  <div id="25" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/dh6.jpg" alt="">
+			  	<a href="#"class="product-name">Đồng hồ Emporio Armani <br /> AR11110</a>
+				<label class="price">9.520.000đ</label>
+				<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+				
+			  </div>				  
+			</div>
+
+		</div>
+		<div class="quatang">
+			<h2>QUÀ TẶNG</h2>
+			<div class="thanhngang">
+				<div id="thanh"></div>
+			</div>
+			<div class="anhqc">
+				<iframe width="100%" height="100%"  src="https://www.youtube.com/embed/OShNvacF8fM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="row">
+				<div id="26" class="spnoibat col-3 col-m-3 col-s-6">
+				  	<img class="product-img" src="assets/images/qt1.jpg" alt=""><br />
+				  	<a href="#" class="product-name">Hạnh phúc lứa đôi <br /> GF-0031-1219</a>
+					<label class="price">3.380.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+				<div id="27"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/qt2.jpg" alt="">
+				  	<a href="#"class="product-name">Kim ngọc mãn đường <br />GF-0028-1219 </a>
+					<label class="price">17.560.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+				<div id="28" class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/qt3.jpg" alt="">
+				  	<a href="#"class="product-name">Như Ý Hảo cầu <br /> DJDEL99</a>
+					<label class="price">5.865.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+				<div id="29"class="spnoibat col-3 col-m-3 col-s-6"><img class="product-img" src="assets/images/qt4.jpg" alt="">
+				  	<a href="#"class="product-name">Thuận buồm xuôi gió <br /> DJDESJ3764</a>
+					<label class="price">51.600.000đ</label>
+					<input type="button" class="btn_buy" value="CHỌN MUA"></input>
+					
+				</div>
+			</div>
+			
+		</div>
+
+
+		<div class="bosuutap">
+			<h2>BỘ SƯU TẬP</h2>
+			<div class="thanhngang">
+				<div id="thanh"></div>
+			</div>
+			<div class="toto" style="display: flex;">
+						<div class="spnoibat col-6 col-m-12 col-s-12"><img class="product-img" src="assets/images/bst1.jpg" alt="">
+				  	<a href="#"class="product-name"><b>BST TS KIM CƯƠNG RAYS OF LIGHT</b></a>
+			</div>
+			<div style="clear:both">
+			</div>
+			<div class="spnoibat col-6 col-m-12 col-s-12"><img class="product-img" src="assets/images/bst2.jpg" alt="">
+				  	<a href="#"class="product-name"><b>BST TS KIM CƯƠNG BRILLIANT STYLE</b></a>
+			</div>
+			</div>
+		</div>
+
+		<div class="vtsdj">
+			<div class="vanban">
+                <a class="title-h2ct" href="#" title="Về trang sức DOJI"><h2>Về trang sức DOJI</h2></a>
+                <p class="txt-vct">Mỗi một người phụ nữ đều mang trong mình nét đẹp riêng &amp; xứng đáng được ngưỡng mộ, được tôn vinh và được tự tin với chính con người mình. Phụ nữ luôn xứng đáng với những điều trọn vẹn nhất cho cuộc sống của mình: Hạnh phúc trọn vẹn, vẻ đẹp trọn vẹn và còn nhiều hơn thế. DOJI hơn cả một thương hiệu trang sức, mà còn là đại diện cho một phong cách sống của những giá trị hoàn mỹ xứng đáng nhất dành cho phụ nữ.<br>
+				<i>"TRANG SỨC DOJI – CHO PHỤ NỮ LUÔN TRỌN VẸN"</i></p>
+            </div>
+		</div>
+
+
+		<div class="add_section">
+			<div class="ndleft">
+				<h2>TIN TỨC</h2>
+				<div class="thanhngang">
+					<div id="thanh" style="width: 15% !important"></div>
+				</div>
+
+				<div class="lefttren">
+					<img src="assets/images/tintuc1.jpg" alt="">
+					<div class="nd">
+						<h6><a href="#" title="Phong cách với BST Trang sức Vàng 24K “Hello Summer” của DOJI">Phong cách với BST Trang sức Vàng 24K “Hello Summer” của DOJI</a></h6>
+						<p style="font-size:12px;">Với mẫu mã đa dạng, ý tưởng đột phá, BST đón hè 2021 - Hello Summer của DOJI lấy cảm hứng từ thiên nhiên sẽ đồng hành cùng các cô gái tự tin tỏa sáng</p>
+					</div>
+				</div>
+
+				<div class="leftduoi" style="display:flex;"> 
+					<div class="it-news">
+                        <div class="img-news">
+                            <a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">
+                            	<img src="assets/images/tintuc2.jpg" alt="" class="lazy" width="234px" height="131px">
+                            </a>
+                        </div>
+                        <div class="txt-news">
+                            <h3><a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ</a></h3>
+                        </div>
+                    </div>
+                    <div class="it-news">
+                        <div class="img-news">
+                            <a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">
+                            	<img src="assets/images/tintuc3.jpg" alt="" class="lazy" width="234px" height="131px">
+                            </a>
+                        </div>
+                        <div class="txt-news">
+                            <h3><a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ</a></h3>
+                        </div>
+                    </div>
+                    <div class="it-news">
+                        <div class="img-news">
+                            <a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">
+                            	<img src="assets/images/tintuc4.jpg" alt="" class="lazy" width="234px" height="131px">
+                            </a>
+                        </div>
+                        <div class="txt-news">
+                            <h3><a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ</a></h3>
+                        </div>
+                    </div>
+				</div>
+			</div>
+			<div class="ndright">
+				<h2>VIDEO</h2>
+				<div class="thanhngang">
+					<div id="thanh" style="width: 15% !important"></div>
+				</div>
+
+				<div class="righttren">
+					<iframe width= "100%" height="131px" ; style="margin= 67px 0px !important" src="https://www.youtube.com/embed/JlIZSXTby-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+				<div class="rightduoi">
+					<div class="it-news" style="display:flex ;padding-bottom: 24px;">
+                        <div class="img-news"  style="padding-right: 5px;">
+                            <a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">
+                            	<img src="assets/images/onlylove.png" alt="" class="lazy" width="115px" height="64px">
+                            </a>
+                        </div>
+                        <div class="txt-news">
+                            <h3><a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">BẬT MÍ ĐIỀU ĐẶC BIỆT PHÍA SAU BST NHẪN CƯỚI "ONLY LOVE</a></h3>
+                        </div>
+                    </div>
+                    <div class="it-news"style="display:flex;border-top: 1px solid #e0e0e0; padding-top: 25px;">
+                        <div class="img-news"  style="padding-right: 5px;">
+                            <a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">
+                            	<img src="assets/images/8Hearts.jpg" alt="" class="lazy" width="115px" height="64px">
+                            </a>
+                        </div>
+                        <div class="txt-news">
+                            <h3><a href="/tin-khuyen-mai/doji-ra-mat-bst-trang-suc-vang-24k-cong-nghe-3d-mung-ngay-cua-me" title="DOJI ra mắt BST Trang sức Vàng 24K công nghệ 3D mừng Ngày của Mẹ">Điều gì khiến phụ nữ say đắm Kim cương 8 Hearts &amp; 8 Arrows?</a></h3>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+		<div class="footer">
+    		<div class="clred"></div>
+			<div class="topft">
+				<div class="contain">
+					<div class="top-footer">
+						<div class="logo-tft">
+							<a href="/" title="Trang sức DOJI">
+								<img alt="Trang sức DOJI" data-original="logo-t.png" class="lazy" width="207px" height="75px" src="logo-t.png" style="">
+							</a>
+						</div>
+						<div class="hl-tft"><p class="lazyed"><img src="assets/images/ic-callr.png" alt="">  hotline:<a href="tel:18001168" title="18001168"> 18001168</a></p></div>
+						<div class="htpp-tft lazyed"><img src="assets/images/ic-ht.png" alt=""><a href="/he-thong-phan-phoi" title="Hệ thống phân phối"> Hệ thống phân phối</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="centerft">
+				<div class="lst-footer">
+	                <div class="it-lft">
+	                    <h3>Liên hệ</h3>
+	                    <div class="clred" style="width: 35px; height: 3px; !important"></div>
+						<ul>
+							<li>Tập đoàn VBĐQ DOJI</li>
+							<li>Địa chỉ: Tòa nhà DOJI Tower, Số 5 Lê Duẩn, Ba Đình, Hà Nội</li>
+							<li>Điện thoại:<a href="tel:18001168" rel="nofollow">1800 1168</a></li>
+							<li>Email:<a href="mailto:info@doji.vn" rel="nofollow">info@doji.vn</a></li>
+							<li>Mã số doanh nghiệp: 0100365621</li>
+						</ul>
+	                </div>
+
+	                <div class="it-lft">
+	                    <h3><a href="/ve-trang-suc-doji" title="Về chúng tôi">Về chúng tôi</a></h3>
+	                    <div class="clred" style="width: 35px; height: 3px; !important"></div>
+	                    <ul>
+	                        <li><a href="/ve-trang-suc-doji" title="Về trang sức DOJI">Về trang sức DOJI</a></li>
+	                        <li><a href="/dich-vu-khach-hang" title="Dịch vụ khách hàng">Dịch vụ khách hàng</a></li>
+	                        <li><a href="/kinh-doanh-ban-si" title="Kinh doanh bán sỉ">Kinh doanh bán sỉ</a></li>
+	                        <li><a href="/doji-elite-club" title="DOJI Elite Club">DOJI Elite Club</a></li>
+	                    </ul>
+	                </div>
+
+	                <div class="it-lft">
+	                    <h3><a href="/dich-vu-khach-hang" title="Dịch vụ khách hàng">Dịch vụ khách hàng</a></h3>
+	                    <div class="clred" style="width: 35px; height: 3px;."></div>
+	                    <ul>
+	                        <li><a href="/dich-vu-khach-hang/huong-dan-dat-hang" title="Hướng dẫn đặt hàng">Hướng dẫn đặt hàng</a></li>
+	                        <li><a href="/phuong-thuc-thanh-toan" title="Phương thức thanh toán">Phương thức thanh toán</a></li>
+	                        <li><a href="/dich-vu-khach-hang/chinh-sach-bao-hanh" title="Chính sách &amp; bảo hành">Chính sách &amp; bảo hành</a></li>
+	                        <li><a href="/cam-ket-chat-luong" title="Cam kết chất lượng">Cam kết chất lượng</a></li>
+	                        <li><a href="/dieu-khoan-mua-ban" title="Điều khoản mua bán">Điều khoản mua bán</a></li>
+	                    </ul>
+	                </div>
+
+	                <div class="it-lft">
+	                    <h3><a href="/tin-khuyen-mai" title="Tin tức ">Tin tức </a></h3>
+	                    <div class="clred" style="width: 35px; height: 3px;"></div>
+	                    <ul>
+	                        <li><a href="/tin-khuyen-mai" title="Tin khuyến mãi">Tin khuyến mãi</a></li>
+	                        <li><a href="/tin-trang-suc" title="Tin trang sức">Tin trang sức</a></li>
+	                        <li><a href="/video" title="Video">Video</a></li>
+	                        <li><a href="/hinh-anh" title="Hình ảnh">Hình ảnh</a></li>
+	                    </ul>
+	                </div>
+	                <div class="it-lft">
+	                    <h3>Đăng ký nhận bản tin</h3>
+	                    <div class="clred" style="width: 35px; height: 3px;"></div>
+	                    <div class="fregis">
+	                    	
+	                        <p>Nhận ngay thông tin ưu đãi mới nhất từ trang sức DOJI</p>
+	                    </div>
+	                </div>
+            	</div>
+			</div>
+			<div class="social">
+	            <div class="social-ct">
+	                <h3><span>Kết nối với chúng tôi</span></h3>
+	                <ul>
+                        <li><a href="#" target="_blank" rel="noopener" class="nm-bdic"><span class="bd-ic"><i class="fab fa-facebook"></i></span>Trang sức DOJI</a></li>
+                        <li><a href="#" target="_blank" rel="noopener" class="nm-bdic"><span class="bd-ic"><i class="fab fa-facebook"></i></span>Trang sức cưới Wedding Land</a></li>
+                        <li><a href="#" target="_blank" rel="noopener" class="nm-bdic"><span class="bd-ic"><i class="fab fa-facebook"></i></span>Trang sức và Quà tặng DOJI</a></li>
+                        <li><a href="#" target="_blank" rel="noopener" class="nm-bdic"><span class="bd-ic"><i class="fab fa-facebook"></i></span>DOJI Watch</a></li>
+                        <li><a href="#" target="_blank" rel="noopener" class="nm-bdic"><span class="bd-ic"><i class="fab fa-youtube-square"></i></span>Youtube</a></li>
+                        <li><a href="#" target="_blank" rel="noopener" class="nm-bdic"><span class="bd-ic"><i class="fab fa-instagram"></i></span>Instagram</a></li>
+                        <li><a href="#" target="_blank" rel="noopener" class="nm-bdic"><span class="bd-ic ic-zalo"><i class="fas fa-globe"></i></span>Zalo</a></li>
+	                </ul>
+	            </div>
+   			 </div>	
+   			 <div class="copyright">
+		        <div class="container">
+		            <div class="cpr-ct">
+		                <div class="img-cpr">
+							<img alt="" height="36" src="assets/images/ic-cpr.png" width="114"> 
+						</div>
+		                <div class="txt-cpr"><p>Copyright 2020 © DOJI Gold &amp; Gems Group</p></div>
+		                <div class="backtop back-top"><a href="#" rel="nofollow" title="Về đầu trang">Về đầu trang  <span></span><i class="far fa-arrow-alt-circle-up"></i></a></div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+   
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="assets/js/Ex.js"></script>
+	<script src = "assets/js/search.js"></script>	
+	<script src="assets/js/order.js"></script> 
+</body>
+</html>
